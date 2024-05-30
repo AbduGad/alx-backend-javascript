@@ -1,5 +1,5 @@
 export default class Building {
-  
+
   constructor(sqft) {
     if (this.constructor !== Building) {
       const props = Object.getOwnPropertyNames(this.constructor.prototype);
